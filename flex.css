@@ -1,0 +1,16 @@
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+
+img {width: 100%}
+
+@media screen and (min-width: 800px) {
+    div {width: 50%};
+}
+   
+@media screen and (min-width: 1200px) {
+    div {width: 35%}
+}
+   
